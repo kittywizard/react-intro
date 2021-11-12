@@ -4,8 +4,11 @@ import Nav from './Nav';
 
 function Header() {
     return (
-        <header className="header"> 
-            <img src={logo} alt="react logo" className="img"></img>
+        <header className="header">
+            <div className="logo">
+                <img src={logo} alt="react logo" className="img"></img>
+                <h5 className="title">ReactFacts</h5>
+            </div>
             <Nav />
       </header>
     )
