@@ -1,3 +1,19 @@
 .img {
     width: 40px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items > li {
+    padding: 0.4em;
+}

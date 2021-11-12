@@ -1,10 +1,12 @@
 import logo from '../logo.svg';
+import Nav from './Nav';
+
 
 function Header() {
     return (
-        <header> 
+        <header className="header"> 
             <img src={logo} alt="react logo" className="img"></img>
-             <h3>Fun facts about React</h3>
+            <Nav />
       </header>
     )
 }
