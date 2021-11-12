@@ -1,4 +1,4 @@
-function MainContent() {
+export default function MainContent() {
 return (
     <main className="container">
         <h3 className="headline">Fun facts about React</h3>
@@ -15,5 +15,3 @@ return (
 
     )
 }
-
-export default MainContent;

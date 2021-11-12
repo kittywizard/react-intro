@@ -1,4 +1,4 @@
-function Nav() {
+export default function Nav() {
     return (
             <nav>
                 <ul className="nav-items">
@@ -9,5 +9,3 @@ function Nav() {
             </nav>
     )
 }
-
-export default Nav;
