@@ -35,8 +35,10 @@
 }
 
 .container {
-    width: 90%;
-    margin: 0 auto;
+    margin-left: 1em;
+    background-image: url('./img/react-icon-large.png');
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .headline {
